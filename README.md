@@ -8,6 +8,9 @@ BiTSENet highway traffic state estimation system is a comprehensive traffic flow
 2. **Traffic Physical Estimation Module**: A physical model based on traffic flow theory that uses outputs from the prediction module to estimate traffic states in road segments without sensor coverage (sparse sensors)
 
 This system is particularly suitable for highway traffic monitoring systems with insufficient sensor deployment, capable of providing traffic state estimation for the entire road network and supporting traffic management decisions with data.
+![Uploading fig3_00.jpg…]()
+
+
 
 ## Model Details
 
