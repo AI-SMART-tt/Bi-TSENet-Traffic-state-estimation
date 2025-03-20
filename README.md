@@ -31,14 +31,21 @@ Bi-TSENet（双向时空编码网络）模型结合了图卷积网络(GCN)和时
 ## 项目结构
 
 ```
-project_root/
+bi-tsenet/
 ├── configs.py                           # 配置管理
 ├── data/                                # 数据存储
-│   └── data1/                           # 数据集
-│       ├── data1_adj.csv                # 图数据邻接矩阵
-│       ├── data1_distance.csv           # 图数据距离矩阵
-│       ├── data1_similarity.csv         # 图数据相似性矩阵
-│       └── data1_trafficflow.csv        # 交通流数据
+│   ├── data1/                           # 模型训练数据集
+│   │   ├── data1_adj.csv                # 图数据邻接矩阵
+│   │   ├── data1_distance.csv           # 图数据距离矩阵
+│   │   ├── data1_similarity.csv         # 图数据相似性矩阵
+│   │   └── data1_trafficflow.csv        # 交通流数据
+│   └── data2/                           # 测试数据
+│       └── ETC_data_example/            # 自动生成的ETC测试数据
+│           ├── roadETC.csv              # 路段数据
+│           ├── raw_data_all.csv         # ETC交易记录
+│           ├── flow/                    # 历史交通流数据
+│           └── prediction/              # 预测交通流数据
+├── generate_test_example_data.py        # 测试数据生成工具
 ├── models/                              # 模型定义
 │   ├── stgcn/                           # STGCN相关模块
 │   │   ├── tcn.py                       # 时间特征提取
@@ -51,19 +58,18 @@ project_root/
 ├── test.py                              # 测试入口脚本
 ├── metrics.py                           # 评估指标
 ├── visualization.py                     # 可视化模块
+├── run_estimation.py                    # 物理估计模块运行入口
 ├── outputs/                             # 结果输出
 │   ├── checkpoints/                     # 模型权重保存
 │   ├── logs/                            # 训练日志
 │   ├── loss_curves/                     # 损失曲线
+│   ├── physical_estimation_results/     # 物理估计输出
 │   └── predictions/                     # 预测结果
 │       ├── pred_flow/                   # 预测流量
 │       └── real_flow/                   # 真实流量
 ├── parameter_results/                   # 物理模型参数结果
 │   ├── travel_times.csv                 # 车辆行驶时间
 │   └── diversion_coefficients.csv       # 匝道分流系数
-├── validation_results/                  # 验证结果
-│   ├── validation_results.csv           # 验证结果总表
-│   └── metrics/                         # 详细评估指标
 ├── main.py                              # 主程序入口
 ├── requirements.txt                     # 项目依赖
 └── README.md                            # 项目说明
