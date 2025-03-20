@@ -9,7 +9,7 @@ BiTSENet highway traffic state estimation system is a comprehensive traffic flow
 
 This system is particularly suitable for highway traffic monitoring systems with insufficient sensor deployment, capable of providing traffic state estimation for the entire road network and supporting traffic management decisions with data.
 
-**Recommendation**: Download the complete Bi-TSENet-pytorch-master.rar package [download link: ____________] to access the full codebase and examples.
+**Recommendation**: Download the complete Bi-TSENet-pytorch-master.rar package [https://github.com/AIcharon-stt/Bi-TSENet-Traffic-state-estimation/blob/main/Bi-TSENet-pytorch-master.rar] to access the full codebase and examples.
 
 
 ## Model Details
