@@ -11,7 +11,7 @@ This system is particularly suitable for highway traffic monitoring systems with
 **Recommendation**: Download the complete Bi-TSENet-pytorch-master.rar package [download link: https://github.com/AIcharon-stt/Bi-TSENet-Traffic-state-estimation/blob/main/Bi-TSENet-pytorch-master.rar] to access the full codebase and examples.
 
 
-![Fig1](https://github.com/user-attachments/assets/5af1de79-9aa6-4d4c-92b8-75775ef0b92c)
+![The framework of the proposed Bi-TSENet_00](https://github.com/user-attachments/assets/7d973595-e66b-4dfb-8fa0-72c4e2941f6a)
 
 
 
