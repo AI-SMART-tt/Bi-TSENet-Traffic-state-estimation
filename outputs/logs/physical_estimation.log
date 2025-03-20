@@ -1,0 +1,210 @@
+2025-03-20 10:19:21,009 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:19:21,009 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:19:21,009 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:19:21,009 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:19:21,009 - validator - INFO - Prediction traffic flow directory: ./outputs/predictions/pred_flow
+2025-03-20 10:19:21,009 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:19:21,009 - validator - INFO - Parameter directory: ./parameter_results
+2025-03-20 10:19:21,009 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:19:21,009 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:19:21,009 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:19:21,009 - validator - INFO - Force recalculation: False
+2025-03-20 10:19:21,009 - validator - INFO - ==========================================
+2025-03-20 10:19:21,009 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:19:21,009 - validator - INFO - Loaded 10 road segment records
+2025-03-20 10:19:21,009 - validator - INFO - Loading ETC data: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:20:49,267 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:20:49,267 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:20:49,267 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:20:49,267 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:20:49,267 - validator - INFO - Prediction traffic flow directory: ./outputs/predictions/pred_flow
+2025-03-20 10:20:49,267 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:20:49,267 - validator - INFO - Parameter directory: ./parameter_results
+2025-03-20 10:20:49,267 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:20:49,267 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:20:49,267 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:20:49,267 - validator - INFO - Force recalculation: False
+2025-03-20 10:20:49,267 - validator - INFO - ==========================================
+2025-03-20 10:20:49,267 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:20:49,267 - validator - INFO - Loaded 10 road segment records
+2025-03-20 10:20:49,267 - validator - INFO - Loading ETC data: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:20:49,492 - validator - INFO - Processed 17296 ETC records
+2025-03-20 10:20:49,492 - validator - INFO - Loading historical traffic flow data: ./data/data2/ETC_data_example/flow
+2025-03-20 10:26:14,927 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:26:14,927 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:26:14,927 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:26:14,927 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:26:14,927 - validator - INFO - Prediction traffic flow directory: ./outputs/predictions/pred_flow
+2025-03-20 10:26:14,927 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:26:14,927 - validator - INFO - Parameter directory: ./parameter_results
+2025-03-20 10:26:14,927 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:26:14,927 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:26:14,927 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:26:14,927 - validator - INFO - Force recalculation: False
+2025-03-20 10:26:14,927 - validator - INFO - ==========================================
+2025-03-20 10:26:14,927 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:26:14,927 - validator - INFO - Loaded 10 road segment records
+2025-03-20 10:26:14,927 - validator - INFO - Loading ETC data: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:26:15,182 - validator - INFO - Processed 17296 ETC records
+2025-03-20 10:26:15,182 - validator - INFO - Loading historical traffic flow data: ./data/data2/ETC_data_example/flow
+2025-03-20 10:33:00,280 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:33:00,280 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:33:00,280 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:33:00,280 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:33:00,280 - validator - INFO - Prediction traffic flow directory: ./outputs/predictions/pred_flow
+2025-03-20 10:33:00,280 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:33:00,280 - validator - INFO - Parameter directory: ./parameter_results
+2025-03-20 10:33:00,280 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:33:00,281 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:33:00,281 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:33:00,281 - validator - INFO - Force recalculation: False
+2025-03-20 10:33:00,281 - validator - INFO - ==========================================
+2025-03-20 10:33:00,281 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:33:00,283 - validator - INFO - Loaded 10 road segment records
+2025-03-20 10:33:00,285 - validator - INFO - Loading ETC data: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:33:00,532 - validator - INFO - Processed 17296 ETC records
+2025-03-20 10:33:00,532 - validator - INFO - Loading historical traffic flow data: ./data/data2/ETC_data_example/flow
+2025-03-20 10:33:59,572 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:33:59,572 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:33:59,572 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:33:59,572 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:33:59,572 - validator - INFO - Prediction traffic flow directory: ./outputs/predictions/pred_flow
+2025-03-20 10:33:59,572 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:33:59,572 - validator - INFO - Parameter directory: ./parameter_results
+2025-03-20 10:33:59,572 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:33:59,572 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:33:59,572 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:33:59,572 - validator - INFO - Force recalculation: False
+2025-03-20 10:33:59,572 - validator - INFO - ==========================================
+2025-03-20 10:33:59,572 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:33:59,572 - validator - INFO - Loaded 10 road segment records
+2025-03-20 10:33:59,572 - validator - INFO - Loading ETC data: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:33:59,820 - validator - INFO - Processed 17296 ETC records
+2025-03-20 10:33:59,820 - validator - INFO - Loading historical traffic flow data: ./data/data2/ETC_data_example/flow
+2025-03-20 10:34:46,195 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:34:46,195 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:34:46,195 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:34:46,195 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:34:46,195 - validator - INFO - Prediction traffic flow directory: ./outputs/predictions/pred_flow
+2025-03-20 10:34:46,195 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:34:46,195 - validator - INFO - Parameter directory: ./parameter_results
+2025-03-20 10:34:46,195 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:34:46,195 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:34:46,195 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:34:46,195 - validator - INFO - Force recalculation: False
+2025-03-20 10:34:46,195 - validator - INFO - ==========================================
+2025-03-20 10:34:46,195 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:34:46,210 - validator - INFO - Loaded 10 road segment records
+2025-03-20 10:34:46,210 - validator - INFO - Loading ETC data: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:34:46,436 - validator - INFO - Processed 17296 ETC records
+2025-03-20 10:34:46,436 - validator - INFO - Loading historical traffic flow data: ./data/data2/ETC_data_example/flow
+2025-03-20 10:36:32,424 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:36:32,424 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:36:32,424 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:36:32,424 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:36:32,424 - validator - INFO - Prediction traffic flow directory: ./outputs/predictions/pred_flow
+2025-03-20 10:36:32,424 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:36:32,424 - validator - INFO - Parameter directory: ./parameter_results
+2025-03-20 10:36:32,424 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:36:32,424 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:36:32,424 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:36:32,424 - validator - INFO - Force recalculation: False
+2025-03-20 10:36:32,424 - validator - INFO - ==========================================
+2025-03-20 10:36:32,424 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:36:32,424 - validator - INFO - Loaded 10 road segment records
+2025-03-20 10:36:32,424 - validator - INFO - Loading ETC data: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:36:32,649 - validator - INFO - Processed 17296 ETC records
+2025-03-20 10:36:32,649 - validator - INFO - Loading historical traffic flow data: ./data/data2/ETC_data_example/flow
+2025-03-20 10:36:32,649 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G001.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,649 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G003.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,664 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G006.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,664 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G009.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,664 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G008.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,679 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G002.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,679 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G011.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,679 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G004.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,679 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G005.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,694 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G010.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,694 - validator - INFO - Loaded flow file: ./data/data2/ETC_data_example/flow\trafficflow_G007.csv with columns: ['time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,694 - validator - INFO - Loaded historical traffic flow data for 11 gantries
+2025-03-20 10:36:32,694 - validator - INFO - Loading prediction traffic flow data: ./outputs/predictions/pred_flow
+2025-03-20 10:36:32,754 - validator - INFO - Loaded prediction file: ./outputs/predictions/pred_flow\prediction_G001.csv with columns: ['time', 'horizon', 'pred_time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,859 - validator - INFO - Loaded prediction file: ./outputs/predictions/pred_flow\prediction_G003.csv with columns: ['time', 'horizon', 'pred_time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:32,965 - validator - INFO - Loaded prediction file: ./outputs/predictions/pred_flow\prediction_G006.csv with columns: ['time', 'horizon', 'pred_time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:33,070 - validator - INFO - Loaded prediction file: ./outputs/predictions/pred_flow\prediction_G002.csv with columns: ['time', 'horizon', 'pred_time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:33,175 - validator - INFO - Loaded prediction file: ./outputs/predictions/pred_flow\prediction_G004.csv with columns: ['time', 'horizon', 'pred_time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:33,295 - validator - INFO - Loaded prediction file: ./outputs/predictions/pred_flow\prediction_G005.csv with columns: ['time', 'horizon', 'pred_time', 'B1', 'B2', 'B3', 'T1', 'T2', 'T3']
+2025-03-20 10:36:33,325 - validator - INFO - Loaded prediction traffic flow data for 6 gantries
+2025-03-20 10:36:33,325 - validator - INFO - Calculating travel times...
+2025-03-20 10:36:33,325 - validator - INFO - Calculating vehicle travel times...
+2025-03-20 10:37:45,072 - validator - INFO - Saving vehicle travel times to CSV file...
+2025-03-20 10:37:45,117 - validator - INFO - Successfully saved to ./parameter_results\travel_times.csv, total of 5738 records
+2025-03-20 10:37:45,117 - validator - INFO - Calculating diversion coefficients...
+2025-03-20 10:37:45,117 - validator - INFO - Calculating dynamic ramp diversion coefficients...
+2025-03-20 10:38:05,686 - validator - INFO - Saving ramp diversion coefficients to CSV file...
+2025-03-20 10:38:05,776 - validator - INFO - Successfully saved to ./parameter_results\diversion_coefficients.csv, total of 25920 records
+2025-03-20 10:38:05,776 - validator - INFO - Calculating traffic states...
+2025-03-20 10:38:06,557 - validator - INFO - Ramp position distribution:
+2025-03-20 10:38:06,557 - validator - INFO - Entry ramp positions: min=0.40, max=0.40, avg=0.40
+2025-03-20 10:38:06,557 - validator - INFO - Exit ramp positions: min=0.63, max=0.63, avg=0.63
+2025-03-20 10:38:06,557 - validator - INFO - Combined entry ramp positions: min=0.34, max=0.34, avg=0.34
+2025-03-20 10:38:06,557 - validator - INFO - Combined exit ramp positions: min=0.87, max=0.87, avg=0.87
+2025-03-20 10:38:06,557 - validator - INFO - Starting blind segment validation...
+2025-03-20 10:38:06,557 - validator - INFO - Starting blind segment validation...
+2025-03-20 10:38:06,557 - validator - INFO - Found 10 consecutive gantry pairs
+2025-03-20 10:38:06,557 - validator - INFO - 
+Validating for demand time: 5 minutes
+2025-03-20 10:38:08,496 - validator - INFO - 
+Validating for demand time: 15 minutes
+2025-03-20 10:38:10,432 - validator - INFO - 
+Validating for demand time: 30 minutes
+2025-03-20 10:38:12,354 - validator - INFO - 
+Validating for demand time: 60 minutes
+2025-03-20 10:38:14,411 - validator - INFO - Validation results saved to: ./outputs/physical_estimation_results\validation_results.csv
+2025-03-20 10:38:14,426 - validator - INFO - 
+Overall validation metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 7.4127
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 10.6792
+2025-03-20 10:38:14,426 - validator - INFO - R2: -0.9298
+2025-03-20 10:38:14,426 - validator - INFO - 
+Metrics by validation scheme:
+2025-03-20 10:38:14,426 - validator - INFO - 
+standard scheme metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 7.4748
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 10.7705
+2025-03-20 10:38:14,426 - validator - INFO - R2: -0.9292
+2025-03-20 10:38:14,426 - validator - INFO - 
+position_aware scheme metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 7.2678
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 10.4632
+2025-03-20 10:38:14,426 - validator - INFO - R2: -0.9323
+2025-03-20 10:38:14,426 - validator - INFO - 
+Metrics by scene type:
+2025-03-20 10:38:14,426 - validator - INFO - 
+Scene type 1 metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 7.6912
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 11.0719
+2025-03-20 10:38:14,426 - validator - INFO - R2: -0.9325
+2025-03-20 10:38:14,426 - validator - INFO - 
+Scene type 2 metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 7.0542
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 10.1103
+2025-03-20 10:38:14,426 - validator - INFO - R2: -0.9486
+2025-03-20 10:38:14,426 - validator - INFO - 
+Scene type 3 metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 7.3587
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 10.6716
+2025-03-20 10:38:14,426 - validator - INFO - R2: -0.9066
+2025-03-20 10:38:14,426 - validator - INFO - 
+Scene type 4 metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 7.3904
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 10.5988
+2025-03-20 10:38:14,426 - validator - INFO - R2: -0.9463
+2025-03-20 10:38:14,426 - validator - INFO - 
+Scene type 5 metrics:
+2025-03-20 10:38:14,426 - validator - INFO - MAE: 6.1767
+2025-03-20 10:38:14,426 - validator - INFO - RMSE: 8.7466
+2025-03-20 10:38:14,441 - validator - INFO - R2: -0.9948
+2025-03-20 10:38:14,576 - validator - INFO - Blind segment validation completed! Time taken: 8.02 seconds
+2025-03-20 10:38:14,576 - validator - INFO - Total execution time: 102.15 seconds
+2025-03-20 10:38:14,576 - validator - INFO - Physical estimation completed successfully. Please check the results directory for detailed reports.

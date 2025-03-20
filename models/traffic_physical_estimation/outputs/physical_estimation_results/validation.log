@@ -1,0 +1,13 @@
+2025-03-20 10:07:51,685 - validator - INFO - ====== Advanced Traffic Flow Estimation and Validation System ======
+2025-03-20 10:07:51,685 - validator - INFO - Road data path: ./data/data2/ETC_data_example/roadETC.csv
+2025-03-20 10:07:51,685 - validator - INFO - ETC data path: ./data/data2/ETC_data_example/raw_data_all.csv
+2025-03-20 10:07:51,685 - validator - INFO - Historical traffic flow directory: ./data/data2/ETC_data_example/flow
+2025-03-20 10:07:51,685 - validator - INFO - Prediction traffic flow directory: ./data/data2/ETC_data_example/prediction
+2025-03-20 10:07:51,685 - validator - INFO - Output directory: ./outputs/physical_estimation_results
+2025-03-20 10:07:51,685 - validator - INFO - Parameter directory: ./outputs/physical_estimation_results
+2025-03-20 10:07:51,685 - validator - INFO - Time window: 5 minutes
+2025-03-20 10:07:51,685 - validator - INFO - Ramp position impact weight: 0.5
+2025-03-20 10:07:51,685 - validator - INFO - Ramp flow damping factor: 0.7
+2025-03-20 10:07:51,685 - validator - INFO - Force recalculation: False
+2025-03-20 10:07:51,685 - validator - INFO - ==========================================
+2025-03-20 10:07:51,685 - validator - INFO - Loading road data: ./data/data2/ETC_data_example/roadETC.csv
