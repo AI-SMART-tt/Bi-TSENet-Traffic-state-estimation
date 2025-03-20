@@ -243,9 +243,11 @@ The physical estimation module includes several key computational units:
    - `validation_results/validation.log`: Detailed validation log
 
 ## Baseline Models Reference
-* **Graph Neural Network (GNN) Based Baseline Models**
+
+1. Graph Neural Network (GNN) Based Baseline Models
   * **Reference Link:** [https://github.com/AIcharon-stt/Traffic-prediction-models-GNN](https://github.com/AIcharon-stt/Traffic-prediction-models-GNN)
-* **Classic Deep Learning/Machine Learning Based Baseline Models**
+
+2. Classic Deep Learning/Machine Learning Based Baseline Models
   * **Reference Link:** [https://github.com/AIcharon-stt/ClassicML-DL-Models](https://github.com/AIcharon-stt/ClassicML-DL-Models)
 
 
