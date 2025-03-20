@@ -1,4 +1,4 @@
-# Bi-TSENet: Bidirectional Time-Space Encoding Network for Traffic Flow Prediction
+# Bi-TSENet: The Bi-layer Traffic State Estimation Network framework that combines traffic flow theory with graph-based deep learning.
 
 ## Project Overview
 
