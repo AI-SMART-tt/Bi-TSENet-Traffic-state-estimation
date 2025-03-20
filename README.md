@@ -44,16 +44,17 @@ project_root/
 ## 环境要求
 
 - Python 3.8+
-- PyTorch 1.8+
+- torch>=1.7.0
 - NumPy
 - Pandas
 - Matplotlib
 - SciPy
+- ...
 
 可以通过以下命令安装依赖：
 
 ```bash
-pip install torch numpy pandas matplotlib scipy
+pip install -r requirements.txt
 ```
 
 ## 使用说明
