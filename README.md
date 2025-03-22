@@ -25,7 +25,6 @@ The Bi-TSENet (Bidirectional Time-Space Encoding Network) model combines Graph C
 - **Multi-Relation GCN**: Processes multiple spatial relationships including adjacency, distance, and similarity
 - **Bidirectional TCN**: Captures long-term and short-term temporal dependencies through forward and backward time series analysis
 - **Feature Fusion**: Organically combines spatial and temporal features to generate predictions for multiple time ranges
-
 ### Traffic Physical Estimation Module
 
 The physical estimation module is based on traffic flow theory, considering road segment geometry and dynamic traffic states to estimate traffic conditions in "blind segments" without sensor coverage:
@@ -34,6 +33,9 @@ The physical estimation module is based on traffic flow theory, considering road
 - **Ramp Position Modeling**: Considers the precise position of ramps within segments and their impact on traffic flow
 - **Dynamic Diversion Coefficients**: Calculates vehicle entry and exit ratios at ramps based on ETC data
 - **Traffic State Awareness**: Identifies free flow, transition, and congestion states based on flow/capacity ratios
+
+![The architecture of the proposed prediction algorithm](https://github.com/user-attachments/assets/fc3863a5-a2b6-46fd-9bf3-d83aa2b898a8)
+
 
 ## Project Structure
 
