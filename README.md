@@ -283,41 +283,44 @@ To be added
 
 For any questions, please contact us at [ttshi3514@163.com] or [1765309248@qq.com].
 
+```
 
 ## Bi-TSENet Model Parameter Details
 
-| Parameter Category | Parameter Name | Optimal Value | Description | Impact Analysis |
-|---------|---------|-------|---------|---------|
-| **GCN Parameters** | GCN_HIDDEN_CHANNELS | [64, 32] | Number of hidden channels in GCN layers | Two-layer structure balances expressiveness and computational efficiency |
-| | GCN_DROPOUT | 0.2 | Dropout rate for GCN layers | 0.2 provides moderate regularization, preventing overfitting |
-| | NUM_RELATIONS | 3 | Number of relation types | Adjacency, distance, and similarity relations comprehensively describe network structure |
-| | RELATION_AGGREGATION | 'concat' | Relation aggregation strategy | Parallel strategy preserves all relation features, outperforms weighted sum |
-| | DISTANCE_THRESHOLD | 10.0 | Distance matrix sparsification threshold | 10.0 effectively filters weak connections, improving computational efficiency |
-| | SIMILARITY_THRESHOLD | 0.1 | Similarity matrix sparsification threshold | 0.1 retains high-similarity connections, reducing noise impact |
-| **TCN Parameters** | TCN_KERNEL_SIZE | 3 | Convolution kernel size | 3×1 kernel most effective at capturing temporal patterns |
-| | TCN_CHANNELS | [32, 64, 128] | Number of channels in TCN layers | Incrementally increasing structure captures temporal features from simple to complex |
-| | TCN_DROPOUT | 0.2 | Dropout rate for TCN layers | 0.2 balances performance and generalization ability |
-| | SEQUENCE_LENGTH | 12 | Input sequence length | 12 time steps (approx. 1 hour) provides sufficient context |
-| | BIDIRECTIONAL | True | Whether to use bidirectional TCN | Bidirectional processing significantly improves prediction accuracy |
-| **Training Parameters** | BATCH_SIZE | 128 | Training batch size | Batch size of 128 achieves balance between computational efficiency and memory usage |
-| | LEARNING_RATE | 0.0001 | Initial learning rate | Small learning rate ensures stable convergence |
-| | WEIGHT_DECAY | 0.001 | Weight decay coefficient | Moderate regularization prevents overfitting |
-| | GRADIENT_CLIP_VALUE | 1.0 | Gradient clipping threshold | Prevents gradient explosion, ensures training stability |
-| | EPOCHS | 100 | Maximum training epochs | Sufficient training ensures model convergence |
-| | PATIENCE | 20 | Early stopping patience value | Avoids overfitting, saves training time |
-| **Data Processing** | NORMALIZATION | 'z-score' | Data standardization method | Z-score standardization makes feature distribution more suitable for deep learning |
-| | TRAIN_RATIO | 0.6 | Training set ratio | 60% data for training provides sufficient learning samples |
-| | PREDICTION_HORIZONS | [5,10,15,30,60] | Prediction time range (minutes) | Covers short to medium-term prediction needs |
-| **Traffic Physical Model Parameters** | TIME_WINDOW | 5 | Time window size (minutes) | 5-minute granularity balances computational efficiency and temporal precision |
-| | ADD_NOISE | True | Whether to add random noise | Simulates measurement errors in real environment, improves model robustness |
-| | NOISE_LEVEL | 0.05 | Random noise level | 5% noise level approximates actual sensor error range |
-| | DEMAND_TIME_OPTIONS | [5,15,30,60] | Demand time options (minutes) | Multi-time scale demand characterizes different trip characteristics |
-| | POSITION_WEIGHT | 0.5 | Ramp position impact weight | Balances impact of ramp position and flow magnitude on diversion |
-| | STATE_THRESHOLD_FACTOR | 1.0 | Traffic state threshold adjustment factor | Adjusts traffic state determination sensitivity, 1.0 is standard threshold |
-| | VEHICLE_FACTOR | 0.4 | Vehicle type impact factor | Characterizes differential impact of vehicle types on traffic flow |
-| | TIME_FACTOR | 0.5 | Time period impact factor | Weighs the influence of daily patterns on traffic behavior |
-| | RAMP_FLOW_DAMPING | 0.7 | Ramp flow damping factor | Smooths ramp flow fluctuations, improves state estimation stability |
-| **Physical Estimation Scene Parameters** | SCENE_TYPES | [1-5] | Road scene type classification | Distinguishes 5 typical scenes, targeted modeling improves estimation accuracy |
-| | VEHICLE_TYPES | ['B1'-'B3','T1'-'T3'] | Vehicle type classification | 6 vehicle types refine traffic flow composition, improving model accuracy|
-| **Physical Model Parameter Persistence** | TRAVEL_TIMES_CSV | "travel_times.csv" | Vehicle travel time storage file | Stores travel time distribution by vehicle type and road segment |
-| | DIVERSION_COEF_CSV | "diversion_coefficients.csv" | Ramp diversion coefficient storage file | Stores ramp diversion characteristics for different vehicle types and time periods |
+| Parameter Category | Parameter Name | Optimal Value | Description |
+|---------|---------|-------|---------|
+| **GCN Parameters** | GCN_HIDDEN_CHANNELS | [64, 32] | Number of hidden channels in GCN layers |
+| | GCN_DROPOUT | 0.2 | Dropout rate for GCN layers |
+| | NUM_RELATIONS | 3 | Number of relation types |
+| | RELATION_AGGREGATION | 'concat' | Relation aggregation strategy |
+| | DISTANCE_THRESHOLD | 10.0 | Distance matrix sparsification threshold |
+| | SIMILARITY_THRESHOLD | 0.1 | Similarity matrix sparsification threshold |
+| **TCN Parameters** | TCN_KERNEL_SIZE | 3 | Convolution kernel size |
+| | TCN_CHANNELS | [32, 64, 128] | Number of channels in TCN layers |
+| | TCN_DROPOUT | 0.2 | Dropout rate for TCN layers |
+| | SEQUENCE_LENGTH | 12 | Input sequence length |
+| | BIDIRECTIONAL | True | Whether to use bidirectional TCN |
+| **Training Parameters** | BATCH_SIZE | 128 | Training batch size |
+| | LEARNING_RATE | 0.0001 | Initial learning rate |
+| | WEIGHT_DECAY | 0.001 | Weight decay coefficient |
+| | GRADIENT_CLIP_VALUE | 1.0 | Gradient clipping threshold |
+| | EPOCHS | 100 | Maximum training epochs |
+| | PATIENCE | 20 | Early stopping patience value |
+| **Data Processing** | NORMALIZATION | 'z-score' | Data standardization method |
+| | TRAIN_RATIO | 0.6 | Training set ratio |
+| | PREDICTION_HORIZONS | [5,10,15,30,60] | Prediction time range (minutes) |
+| **Traffic Physical Model Parameters** | TIME_WINDOW | 5 | Time window size (minutes) |
+| | ADD_NOISE | True | Whether to add random noise |
+| | NOISE_LEVEL | 0.05 | Random noise level |
+| | DEMAND_TIME_OPTIONS | [5,15,30,60] | Demand time options (minutes) |
+| | POSITION_WEIGHT | 0.5 | Ramp position impact weight |
+| | STATE_THRESHOLD_FACTOR | 1.0 | Traffic state threshold adjustment factor |
+| | VEHICLE_FACTOR | 0.4 | Vehicle type impact factor |
+| | TIME_FACTOR | 0.5 | Time period impact factor |
+| | RAMP_FLOW_DAMPING | 0.7 | Ramp flow damping factor |
+| **Physical Estimation Scene Parameters** | SCENE_TYPES | [1-5] | Road scene type classification |
+| | VEHICLE_TYPES | ['B1'-'B3','T1'-'T3'] | Vehicle type classification |
+| **Physical Model Parameter Persistence** | TRAVEL_TIMES_CSV | "travel_times.csv" | Vehicle travel time storage file |
+| | DIVERSION_COEF_CSV | "diversion_coefficients.csv" | Ramp diversion coefficient storage file |
+
+```
