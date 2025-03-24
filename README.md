@@ -284,6 +284,7 @@ To be added
 For any questions, please contact us at [ttshi3514@163.com] or [1765309248@qq.com].
 
 
+---
 
 ## Bi-TSENet Model Parameter Details
 
