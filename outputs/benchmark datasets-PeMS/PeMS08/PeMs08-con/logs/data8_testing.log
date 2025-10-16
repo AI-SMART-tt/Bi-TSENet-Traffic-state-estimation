@@ -1,0 +1,6 @@
+2025-10-16 10:44:10,237 - test_logger - INFO - Starting Bi-TSENet testing on data8 dataset...
+2025-10-16 10:44:13,339 - test_logger - INFO - --- Evaluating Horizon: 12 ---
+2025-10-16 10:44:13,376 - test_logger - INFO - Overall Metrics for Horizon 2: {'MAE': np.float64(13.97184011408375), 'RMSE': np.float64(23.8457885155596), 'MAPE': np.float64(8.954820470148366), 'R2': np.float64(0.9776824017849645)}
+2025-10-16 10:44:14,904 - test_logger - INFO - Saved predictions, ground truth, and detailed metrics for Horizon 12.
+
+
