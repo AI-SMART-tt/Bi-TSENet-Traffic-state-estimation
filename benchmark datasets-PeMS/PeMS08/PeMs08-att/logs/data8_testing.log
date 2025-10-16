@@ -1,0 +1,19 @@
+2025-10-16 13:05:17,225 - test_logger - INFO - Starting Bi-TSENet testing on data8 dataset...
+2025-10-16 13:05:19,357 - test_logger - INFO - --- Evaluating Horizon: 1 ---
+2025-10-16 13:05:19,391 - test_logger - INFO - Overall Metrics for Horizon 1: {'MAE': np.float64(12.997599335613339), 'MSE': np.float64(408.1002229559932), 'RMSE': np.float64(20.201490612229417), 'MAPE': np.float64(8.381264657138765), 'R2': np.float64(0.9809191651120115)}
+2025-10-16 13:05:20,271 - test_logger - INFO - Saved predictions, ground truth, and detailed metrics for Horizon 1.
+2025-10-16 13:05:20,272 - test_logger - INFO - --- Evaluating Horizon: 2 ---
+2025-10-16 13:05:20,307 - test_logger - INFO - Overall Metrics for Horizon 2: {'MAE': np.float64(13.90539957832472), 'MSE': np.float64(473.07263889839555), 'RMSE': np.float64(21.75023307687519), 'MAPE': np.float64(8.910771490750617), 'R2': np.float64(0.9778772131431978)}
+2025-10-16 13:05:21,194 - test_logger - INFO - Saved predictions, ground truth, and detailed metrics for Horizon 2.
+2025-10-16 13:05:21,194 - test_logger - INFO - --- Evaluating Horizon: 3 ---
+2025-10-16 13:05:21,235 - test_logger - INFO - Overall Metrics for Horizon 3: {'MAE': np.float64(14.600265247939582), 'MSE': np.float64(524.4688671796845), 'RMSE': np.float64(22.9012852735318), 'MAPE': np.float64(9.344091394718644), 'R2': np.float64(0.9754691847379718)}
+2025-10-16 13:05:22,117 - test_logger - INFO - Saved predictions, ground truth, and detailed metrics for Horizon 3.
+2025-10-16 13:05:22,117 - test_logger - INFO - --- Evaluating Horizon: 4 ---
+2025-10-16 13:05:22,153 - test_logger - INFO - Overall Metrics for Horizon 4: {'MAE': np.float64(15.1850502581167), 'MSE': np.float64(568.7467507281066), 'RMSE': np.float64(23.848411912077218), 'MAPE': np.float64(9.705817475884547), 'R2': np.float64(0.9733936277645657)}
+2025-10-16 13:05:23,034 - test_logger - INFO - Saved predictions, ground truth, and detailed metrics for Horizon 4.
+2025-10-16 13:05:23,034 - test_logger - INFO - --- Evaluating Horizon: 5 ---
+2025-10-16 13:05:23,070 - test_logger - INFO - Overall Metrics for Horizon 5: {'MAE': np.float64(15.71884875079894), 'MSE': np.float64(609.742509633228), 'RMSE': np.float64(24.692964780139867), 'MAPE': np.float64(10.038717877260291), 'R2': np.float64(0.971471045884784)}
+2025-10-16 13:05:23,939 - test_logger - INFO - Saved predictions, ground truth, and detailed metrics for Horizon 5.
+2025-10-16 13:05:23,940 - test_logger - INFO - --- Evaluating Horizon: 6 ---
+2025-10-16 13:05:23,974 - test_logger - INFO - Overall Metrics for Horizon 6: {'MAE': np.float64(16.27145933413312), 'MSE': np.float64(651.2270230555312), 'RMSE': np.float64(25.519150124083897), 'MAPE': np.float64(10.461055902431342), 'R2': np.float64(0.9695243214734579)}
+2025-10-16 13:05:24,846 - test_logger - INFO - Saved predictions, ground truth, and detailed metrics for Horizon 6.

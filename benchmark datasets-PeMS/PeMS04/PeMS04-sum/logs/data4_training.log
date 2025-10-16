@@ -1,0 +1,166 @@
+2025-10-15 16:58:44,449 - train_logger - INFO - Model Bi-TSENet initialized with 205231 trainable parameters
+2025-10-15 16:58:45,285 - train_logger - INFO - Starting Bi-TSENet training on data4 dataset with 307 nodes
+2025-10-15 16:59:39,275 - train_logger - INFO - Epoch 1/50 | Train Loss: 0.091353 | Val Loss: 0.084103
+2025-10-15 16:59:39,283 - train_logger - INFO - Saved new best model with validation loss: 0.084103
+2025-10-15 17:00:34,094 - train_logger - INFO - Epoch 2/50 | Train Loss: 0.070817 | Val Loss: 0.081049
+2025-10-15 17:00:34,101 - train_logger - INFO - Saved new best model with validation loss: 0.081049
+2025-10-15 17:01:27,243 - train_logger - INFO - Epoch 3/50 | Train Loss: 0.068565 | Val Loss: 0.076815
+2025-10-15 17:01:27,251 - train_logger - INFO - Saved new best model with validation loss: 0.076815
+2025-10-15 17:02:20,283 - train_logger - INFO - Epoch 4/50 | Train Loss: 0.066705 | Val Loss: 0.076705
+2025-10-15 17:02:20,292 - train_logger - INFO - Saved new best model with validation loss: 0.076705
+2025-10-15 17:03:13,620 - train_logger - INFO - Epoch 5/50 | Train Loss: 0.066645 | Val Loss: 0.074079
+2025-10-15 17:03:13,623 - train_logger - INFO - Saved new best model with validation loss: 0.074079
+2025-10-15 17:04:07,045 - train_logger - INFO - Epoch 6/50 | Train Loss: 0.065631 | Val Loss: 0.070517
+2025-10-15 17:04:07,051 - train_logger - INFO - Saved new best model with validation loss: 0.070517
+2025-10-15 17:05:01,304 - train_logger - INFO - Epoch 7/50 | Train Loss: 0.064921 | Val Loss: 0.069520
+2025-10-15 17:05:01,310 - train_logger - INFO - Saved new best model with validation loss: 0.069520
+2025-10-15 17:05:55,693 - train_logger - INFO - Epoch 8/50 | Train Loss: 0.064695 | Val Loss: 0.074119
+2025-10-15 17:06:49,039 - train_logger - INFO - Epoch 9/50 | Train Loss: 0.064257 | Val Loss: 0.071620
+2025-10-15 17:07:42,242 - train_logger - INFO - Epoch 10/50 | Train Loss: 0.063903 | Val Loss: 0.067883
+2025-10-15 17:07:42,248 - train_logger - INFO - Saved new best model with validation loss: 0.067883
+2025-10-15 17:08:36,095 - train_logger - INFO - Epoch 11/50 | Train Loss: 0.063302 | Val Loss: 0.067432
+2025-10-15 17:08:36,101 - train_logger - INFO - Saved new best model with validation loss: 0.067432
+2025-10-15 17:09:29,386 - train_logger - INFO - Epoch 12/50 | Train Loss: 0.062905 | Val Loss: 0.067853
+2025-10-15 17:10:22,082 - train_logger - INFO - Epoch 13/50 | Train Loss: 0.062861 | Val Loss: 0.067085
+2025-10-15 17:10:22,090 - train_logger - INFO - Saved new best model with validation loss: 0.067085
+2025-10-15 19:50:11,478 - train_logger - INFO - Model Bi-TSENet initialized with 205231 trainable parameters
+2025-10-15 19:50:12,569 - train_logger - INFO - Starting Bi-TSENet training on data4 dataset with 307 nodes
+2025-10-15 19:51:06,471 - train_logger - INFO - Epoch 1/100 | Train Loss: 0.091346 | Val Loss: 0.084621
+2025-10-15 19:51:06,471 - train_logger - INFO - Saved new best model with validation loss: 0.084621
+2025-10-15 19:51:59,667 - train_logger - INFO - Epoch 2/100 | Train Loss: 0.070868 | Val Loss: 0.080852
+2025-10-15 19:51:59,683 - train_logger - INFO - Saved new best model with validation loss: 0.080852
+2025-10-15 19:52:53,344 - train_logger - INFO - Epoch 3/100 | Train Loss: 0.068594 | Val Loss: 0.076402
+2025-10-15 19:52:53,360 - train_logger - INFO - Saved new best model with validation loss: 0.076402
+2025-10-15 19:53:46,649 - train_logger - INFO - Epoch 4/100 | Train Loss: 0.066731 | Val Loss: 0.076739
+2025-10-15 19:54:39,707 - train_logger - INFO - Epoch 5/100 | Train Loss: 0.066594 | Val Loss: 0.073871
+2025-10-15 19:54:39,723 - train_logger - INFO - Saved new best model with validation loss: 0.073871
+2025-10-15 19:55:33,078 - train_logger - INFO - Epoch 6/100 | Train Loss: 0.065672 | Val Loss: 0.070328
+2025-10-15 19:55:33,078 - train_logger - INFO - Saved new best model with validation loss: 0.070328
+2025-10-15 19:56:26,527 - train_logger - INFO - Epoch 7/100 | Train Loss: 0.064830 | Val Loss: 0.069617
+2025-10-15 19:56:26,543 - train_logger - INFO - Saved new best model with validation loss: 0.069617
+2025-10-15 19:57:19,875 - train_logger - INFO - Epoch 8/100 | Train Loss: 0.064573 | Val Loss: 0.073718
+2025-10-15 19:58:13,384 - train_logger - INFO - Epoch 9/100 | Train Loss: 0.064132 | Val Loss: 0.071129
+2025-10-15 19:59:06,559 - train_logger - INFO - Epoch 10/100 | Train Loss: 0.063697 | Val Loss: 0.067847
+2025-10-15 19:59:06,574 - train_logger - INFO - Saved new best model with validation loss: 0.067847
+2025-10-15 19:59:59,507 - train_logger - INFO - Epoch 11/100 | Train Loss: 0.063172 | Val Loss: 0.067350
+2025-10-15 19:59:59,507 - train_logger - INFO - Saved new best model with validation loss: 0.067350
+2025-10-15 20:00:52,364 - train_logger - INFO - Epoch 12/100 | Train Loss: 0.062761 | Val Loss: 0.067503
+2025-10-15 20:01:45,159 - train_logger - INFO - Epoch 13/100 | Train Loss: 0.062759 | Val Loss: 0.067099
+2025-10-15 20:01:45,175 - train_logger - INFO - Saved new best model with validation loss: 0.067099
+2025-10-15 20:02:38,809 - train_logger - INFO - Epoch 14/100 | Train Loss: 0.062470 | Val Loss: 0.067540
+2025-10-15 20:03:32,251 - train_logger - INFO - Epoch 15/100 | Train Loss: 0.062300 | Val Loss: 0.066601
+2025-10-15 20:03:32,264 - train_logger - INFO - Saved new best model with validation loss: 0.066601
+2025-10-15 20:04:25,151 - train_logger - INFO - Epoch 16/100 | Train Loss: 0.062101 | Val Loss: 0.066960
+2025-10-15 20:05:20,039 - train_logger - INFO - Epoch 17/100 | Train Loss: 0.062126 | Val Loss: 0.066749
+2025-10-15 20:06:14,823 - train_logger - INFO - Epoch 18/100 | Train Loss: 0.061938 | Val Loss: 0.066350
+2025-10-15 20:06:14,844 - train_logger - INFO - Saved new best model with validation loss: 0.066350
+2025-10-15 20:07:08,711 - train_logger - INFO - Epoch 19/100 | Train Loss: 0.062240 | Val Loss: 0.067715
+2025-10-15 20:08:02,628 - train_logger - INFO - Epoch 20/100 | Train Loss: 0.061718 | Val Loss: 0.065856
+2025-10-15 20:08:02,635 - train_logger - INFO - Saved new best model with validation loss: 0.065856
+2025-10-15 20:08:55,630 - train_logger - INFO - Epoch 21/100 | Train Loss: 0.061349 | Val Loss: 0.066324
+2025-10-15 20:09:48,291 - train_logger - INFO - Epoch 22/100 | Train Loss: 0.061264 | Val Loss: 0.065942
+2025-10-15 20:10:41,970 - train_logger - INFO - Epoch 23/100 | Train Loss: 0.061175 | Val Loss: 0.065388
+2025-10-15 20:10:41,975 - train_logger - INFO - Saved new best model with validation loss: 0.065388
+2025-10-15 20:11:35,246 - train_logger - INFO - Epoch 24/100 | Train Loss: 0.060881 | Val Loss: 0.066502
+2025-10-15 20:12:27,957 - train_logger - INFO - Epoch 25/100 | Train Loss: 0.060958 | Val Loss: 0.065999
+2025-10-15 20:13:20,849 - train_logger - INFO - Epoch 26/100 | Train Loss: 0.060662 | Val Loss: 0.065802
+2025-10-15 20:14:13,565 - train_logger - INFO - Epoch 27/100 | Train Loss: 0.060931 | Val Loss: 0.065847
+2025-10-15 20:15:06,542 - train_logger - INFO - Epoch 28/100 | Train Loss: 0.060683 | Val Loss: 0.065252
+2025-10-15 20:15:06,560 - train_logger - INFO - Saved new best model with validation loss: 0.065252
+2025-10-15 20:16:01,092 - train_logger - INFO - Epoch 29/100 | Train Loss: 0.060663 | Val Loss: 0.065444
+2025-10-15 20:16:55,335 - train_logger - INFO - Epoch 30/100 | Train Loss: 0.060702 | Val Loss: 0.065128
+2025-10-15 20:16:55,335 - train_logger - INFO - Saved new best model with validation loss: 0.065128
+2025-10-15 20:17:49,100 - train_logger - INFO - Epoch 31/100 | Train Loss: 0.060171 | Val Loss: 0.065018
+2025-10-15 20:17:49,118 - train_logger - INFO - Saved new best model with validation loss: 0.065018
+2025-10-15 20:18:42,706 - train_logger - INFO - Epoch 32/100 | Train Loss: 0.060045 | Val Loss: 0.064563
+2025-10-15 20:18:42,706 - train_logger - INFO - Saved new best model with validation loss: 0.064563
+2025-10-15 20:19:36,546 - train_logger - INFO - Epoch 33/100 | Train Loss: 0.059974 | Val Loss: 0.065217
+2025-10-15 20:20:30,626 - train_logger - INFO - Epoch 34/100 | Train Loss: 0.060078 | Val Loss: 0.064709
+2025-10-15 20:21:25,200 - train_logger - INFO - Epoch 35/100 | Train Loss: 0.059973 | Val Loss: 0.065665
+2025-10-15 20:22:18,242 - train_logger - INFO - Epoch 36/100 | Train Loss: 0.059943 | Val Loss: 0.064507
+2025-10-15 20:22:18,250 - train_logger - INFO - Saved new best model with validation loss: 0.064507
+2025-10-15 20:23:12,786 - train_logger - INFO - Epoch 37/100 | Train Loss: 0.059791 | Val Loss: 0.064516
+2025-10-15 20:24:06,168 - train_logger - INFO - Epoch 38/100 | Train Loss: 0.059852 | Val Loss: 0.064732
+2025-10-15 20:24:59,988 - train_logger - INFO - Epoch 39/100 | Train Loss: 0.059794 | Val Loss: 0.064836
+2025-10-15 20:25:54,443 - train_logger - INFO - Epoch 40/100 | Train Loss: 0.059599 | Val Loss: 0.064193
+2025-10-15 20:25:54,451 - train_logger - INFO - Saved new best model with validation loss: 0.064193
+2025-10-15 20:26:48,164 - train_logger - INFO - Epoch 41/100 | Train Loss: 0.059601 | Val Loss: 0.064594
+2025-10-15 20:27:42,061 - train_logger - INFO - Epoch 42/100 | Train Loss: 0.059366 | Val Loss: 0.064254
+2025-10-15 20:28:36,270 - train_logger - INFO - Epoch 43/100 | Train Loss: 0.059494 | Val Loss: 0.064589
+2025-10-15 20:29:30,409 - train_logger - INFO - Epoch 44/100 | Train Loss: 0.059418 | Val Loss: 0.064819
+2025-10-15 20:30:23,838 - train_logger - INFO - Epoch 45/100 | Train Loss: 0.059413 | Val Loss: 0.064879
+2025-10-15 20:31:18,420 - train_logger - INFO - Epoch 46/100 | Train Loss: 0.059229 | Val Loss: 0.064811
+2025-10-15 20:32:12,350 - train_logger - INFO - Epoch 47/100 | Train Loss: 0.059209 | Val Loss: 0.064019
+2025-10-15 20:32:12,367 - train_logger - INFO - Saved new best model with validation loss: 0.064019
+2025-10-15 20:33:05,087 - train_logger - INFO - Epoch 48/100 | Train Loss: 0.059100 | Val Loss: 0.063942
+2025-10-15 20:33:05,103 - train_logger - INFO - Saved new best model with validation loss: 0.063942
+2025-10-15 20:33:58,045 - train_logger - INFO - Epoch 49/100 | Train Loss: 0.058996 | Val Loss: 0.063662
+2025-10-15 20:33:58,064 - train_logger - INFO - Saved new best model with validation loss: 0.063662
+2025-10-15 20:34:51,251 - train_logger - INFO - Epoch 50/100 | Train Loss: 0.058947 | Val Loss: 0.064089
+2025-10-15 20:35:46,308 - train_logger - INFO - Epoch 51/100 | Train Loss: 0.058835 | Val Loss: 0.063780
+2025-10-15 20:36:40,706 - train_logger - INFO - Epoch 52/100 | Train Loss: 0.058848 | Val Loss: 0.063457
+2025-10-15 20:36:40,712 - train_logger - INFO - Saved new best model with validation loss: 0.063457
+2025-10-15 20:37:35,940 - train_logger - INFO - Epoch 53/100 | Train Loss: 0.059002 | Val Loss: 0.063892
+2025-10-15 20:38:29,849 - train_logger - INFO - Epoch 54/100 | Train Loss: 0.058865 | Val Loss: 0.063534
+2025-10-15 20:39:27,200 - train_logger - INFO - Epoch 55/100 | Train Loss: 0.058909 | Val Loss: 0.063594
+2025-10-15 20:40:27,528 - train_logger - INFO - Epoch 56/100 | Train Loss: 0.058672 | Val Loss: 0.063493
+2025-10-15 20:41:27,888 - train_logger - INFO - Epoch 57/100 | Train Loss: 0.058776 | Val Loss: 0.063881
+2025-10-15 20:42:28,160 - train_logger - INFO - Epoch 58/100 | Train Loss: 0.058801 | Val Loss: 0.063340
+2025-10-15 20:42:28,164 - train_logger - INFO - Saved new best model with validation loss: 0.063340
+2025-10-15 20:43:28,495 - train_logger - INFO - Epoch 59/100 | Train Loss: 0.058678 | Val Loss: 0.063712
+2025-10-15 20:44:29,169 - train_logger - INFO - Epoch 60/100 | Train Loss: 0.058615 | Val Loss: 0.063371
+2025-10-15 20:45:30,119 - train_logger - INFO - Epoch 61/100 | Train Loss: 0.058445 | Val Loss: 0.063347
+2025-10-15 20:46:31,260 - train_logger - INFO - Epoch 62/100 | Train Loss: 0.058489 | Val Loss: 0.063135
+2025-10-15 20:46:31,271 - train_logger - INFO - Saved new best model with validation loss: 0.063135
+2025-10-15 20:47:32,197 - train_logger - INFO - Epoch 63/100 | Train Loss: 0.058525 | Val Loss: 0.063288
+2025-10-15 20:48:33,065 - train_logger - INFO - Epoch 64/100 | Train Loss: 0.058439 | Val Loss: 0.063465
+2025-10-15 20:49:34,747 - train_logger - INFO - Epoch 65/100 | Train Loss: 0.058280 | Val Loss: 0.063157
+2025-10-15 20:50:35,916 - train_logger - INFO - Epoch 66/100 | Train Loss: 0.058325 | Val Loss: 0.063079
+2025-10-15 20:50:35,921 - train_logger - INFO - Saved new best model with validation loss: 0.063079
+2025-10-15 20:51:37,964 - train_logger - INFO - Epoch 67/100 | Train Loss: 0.058445 | Val Loss: 0.063115
+2025-10-15 20:52:38,456 - train_logger - INFO - Epoch 68/100 | Train Loss: 0.058529 | Val Loss: 0.063260
+2025-10-15 20:53:38,958 - train_logger - INFO - Epoch 69/100 | Train Loss: 0.058370 | Val Loss: 0.063771
+2025-10-15 20:54:39,614 - train_logger - INFO - Epoch 70/100 | Train Loss: 0.058370 | Val Loss: 0.063060
+2025-10-15 20:54:39,621 - train_logger - INFO - Saved new best model with validation loss: 0.063060
+2025-10-15 20:55:40,242 - train_logger - INFO - Epoch 71/100 | Train Loss: 0.058119 | Val Loss: 0.063473
+2025-10-15 20:56:40,470 - train_logger - INFO - Epoch 72/100 | Train Loss: 0.058125 | Val Loss: 0.063138
+2025-10-15 20:57:40,710 - train_logger - INFO - Epoch 73/100 | Train Loss: 0.058096 | Val Loss: 0.063016
+2025-10-15 20:57:40,722 - train_logger - INFO - Saved new best model with validation loss: 0.063016
+2025-10-15 20:58:40,964 - train_logger - INFO - Epoch 74/100 | Train Loss: 0.058042 | Val Loss: 0.063018
+2025-10-15 20:59:41,151 - train_logger - INFO - Epoch 75/100 | Train Loss: 0.058153 | Val Loss: 0.063043
+2025-10-15 21:00:41,406 - train_logger - INFO - Epoch 76/100 | Train Loss: 0.058033 | Val Loss: 0.062917
+2025-10-15 21:00:41,422 - train_logger - INFO - Saved new best model with validation loss: 0.062917
+2025-10-15 21:01:41,714 - train_logger - INFO - Epoch 77/100 | Train Loss: 0.058247 | Val Loss: 0.062858
+2025-10-15 21:01:41,719 - train_logger - INFO - Saved new best model with validation loss: 0.062858
+2025-10-15 21:02:42,141 - train_logger - INFO - Epoch 78/100 | Train Loss: 0.058116 | Val Loss: 0.062857
+2025-10-15 21:02:42,147 - train_logger - INFO - Saved new best model with validation loss: 0.062857
+2025-10-15 21:03:42,764 - train_logger - INFO - Epoch 79/100 | Train Loss: 0.058237 | Val Loss: 0.062920
+2025-10-15 21:04:43,125 - train_logger - INFO - Epoch 80/100 | Train Loss: 0.058195 | Val Loss: 0.062856
+2025-10-15 21:04:43,131 - train_logger - INFO - Saved new best model with validation loss: 0.062856
+2025-10-15 21:05:44,330 - train_logger - INFO - Epoch 81/100 | Train Loss: 0.057917 | Val Loss: 0.062767
+2025-10-15 21:05:44,336 - train_logger - INFO - Saved new best model with validation loss: 0.062767
+2025-10-15 21:06:44,780 - train_logger - INFO - Epoch 82/100 | Train Loss: 0.057949 | Val Loss: 0.062854
+2025-10-15 21:07:45,186 - train_logger - INFO - Epoch 83/100 | Train Loss: 0.057953 | Val Loss: 0.062789
+2025-10-15 21:08:45,507 - train_logger - INFO - Epoch 84/100 | Train Loss: 0.057997 | Val Loss: 0.062776
+2025-10-15 21:09:46,517 - train_logger - INFO - Epoch 85/100 | Train Loss: 0.058050 | Val Loss: 0.062948
+2025-10-15 21:10:46,789 - train_logger - INFO - Epoch 86/100 | Train Loss: 0.057836 | Val Loss: 0.062701
+2025-10-15 21:10:46,796 - train_logger - INFO - Saved new best model with validation loss: 0.062701
+2025-10-15 21:11:47,128 - train_logger - INFO - Epoch 87/100 | Train Loss: 0.057987 | Val Loss: 0.062676
+2025-10-15 21:11:47,137 - train_logger - INFO - Saved new best model with validation loss: 0.062676
+2025-10-15 21:12:47,625 - train_logger - INFO - Epoch 88/100 | Train Loss: 0.057867 | Val Loss: 0.062806
+2025-10-15 21:13:48,198 - train_logger - INFO - Epoch 89/100 | Train Loss: 0.057879 | Val Loss: 0.062722
+2025-10-15 21:14:48,572 - train_logger - INFO - Epoch 90/100 | Train Loss: 0.057860 | Val Loss: 0.062850
+2025-10-15 21:15:48,977 - train_logger - INFO - Epoch 91/100 | Train Loss: 0.057838 | Val Loss: 0.062839
+2025-10-15 21:16:49,967 - train_logger - INFO - Epoch 92/100 | Train Loss: 0.057939 | Val Loss: 0.062745
+2025-10-15 21:17:50,365 - train_logger - INFO - Epoch 93/100 | Train Loss: 0.057928 | Val Loss: 0.062625
+2025-10-15 21:17:50,365 - train_logger - INFO - Saved new best model with validation loss: 0.062625
+2025-10-15 21:18:50,825 - train_logger - INFO - Epoch 94/100 | Train Loss: 0.057822 | Val Loss: 0.062616
+2025-10-15 21:18:50,840 - train_logger - INFO - Saved new best model with validation loss: 0.062616
+2025-10-15 21:19:51,266 - train_logger - INFO - Epoch 95/100 | Train Loss: 0.057686 | Val Loss: 0.062789
+2025-10-15 21:20:51,772 - train_logger - INFO - Epoch 96/100 | Train Loss: 0.057785 | Val Loss: 0.062760
+2025-10-15 21:21:52,006 - train_logger - INFO - Epoch 97/100 | Train Loss: 0.057740 | Val Loss: 0.062669
+2025-10-15 21:22:52,257 - train_logger - INFO - Epoch 98/100 | Train Loss: 0.057734 | Val Loss: 0.062697
+2025-10-15 21:23:52,459 - train_logger - INFO - Epoch 99/100 | Train Loss: 0.057780 | Val Loss: 0.062585
+2025-10-15 21:23:52,463 - train_logger - INFO - Saved new best model with validation loss: 0.062585
+2025-10-15 21:24:52,698 - train_logger - INFO - Epoch 100/100 | Train Loss: 0.057791 | Val Loss: 0.062633
+2025-10-15 21:24:52,700 - train_logger - INFO - Training completed in 5680.13 seconds

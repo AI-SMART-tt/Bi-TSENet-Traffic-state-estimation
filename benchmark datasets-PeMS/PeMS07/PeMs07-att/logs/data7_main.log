@@ -1,0 +1,18 @@
+2025-10-15 23:15:16,776 - main_logger - INFO - ======================================================================
+2025-10-15 23:15:16,776 - main_logger - INFO - ===== Starting Bi-TSENet Execution for Dataset: data7 =====
+2025-10-15 23:15:16,776 - main_logger - INFO - ======================================================================
+2025-10-15 23:15:16,776 - main_logger - INFO - MODE: all
+2025-10-15 23:15:16,776 - main_logger - INFO - DEVICE: cuda
+2025-10-15 23:15:16,785 - main_logger - INFO - --- Hyperparameters ---
+2025-10-15 23:15:16,785 - main_logger - INFO -   - Learning Rate: 0.001
+2025-10-15 23:15:16,787 - main_logger - INFO -   - Batch Size: 64
+2025-10-15 23:15:16,787 - main_logger - INFO -   - Epochs: 100
+2025-10-15 23:15:16,787 - main_logger - INFO -   - Sequence Length: 12
+2025-10-15 23:15:16,788 - main_logger - INFO -   - Prediction Horizon: 12
+2025-10-15 23:15:16,788 - main_logger - INFO -   - Relation Aggregation: attention
+2025-10-15 23:15:16,788 - main_logger - INFO - 
+--- Phase: Training ---
+2025-10-16 08:31:52,246 - main_logger - INFO - 
+--- Phase: Testing ---
+2025-10-16 08:33:05,746 - main_logger - INFO - 
+--- Phase: Visualization ---
