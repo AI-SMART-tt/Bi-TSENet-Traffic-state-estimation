@@ -1,0 +1,86 @@
+2025-10-20 09:37:59,659 - validator - INFO - ====== 高级交通流量估计与验证系统 ======
+2025-10-20 09:37:59,659 - validator - INFO - 路段数据路径: ./ETC_data_example/roadETC.csv
+2025-10-20 09:37:59,659 - validator - INFO - ETC数据路径: ./ETC_data_example/raw_data_all.csv
+2025-10-20 09:37:59,659 - validator - INFO - 历史交通流数据目录: ./ETC_data_example/flow
+2025-10-20 09:37:59,659 - validator - INFO - 预测交通流数据目录: ./ETC_data_example/prediction
+2025-10-20 09:37:59,659 - validator - INFO - 输出目录: ./advanced_validation_results
+2025-10-20 09:37:59,659 - validator - INFO - 参数目录: ./parameter_results
+2025-10-20 09:37:59,664 - validator - INFO - 时间窗口: 5分钟
+2025-10-20 09:37:59,664 - validator - INFO - 匝道位置影响权重: 0.5
+2025-10-20 09:37:59,664 - validator - INFO - 匝道流量衰减因子: 0.7
+2025-10-20 09:37:59,664 - validator - INFO - 强制重新计算参数: False
+2025-10-20 09:37:59,664 - validator - INFO - ==========================================
+2025-10-20 09:37:59,664 - validator - INFO - 加载路段数据: ./ETC_data_example/roadETC.csv
+2025-10-20 09:38:37,010 - validator - INFO - ====== 高级交通流量估计与验证系统 ======
+2025-10-20 09:38:37,015 - validator - INFO - 路段数据路径: ./ETC_data_example/roadETC.csv
+2025-10-20 09:38:37,015 - validator - INFO - ETC数据路径: ./ETC_data_example/raw_data_all.csv
+2025-10-20 09:38:37,015 - validator - INFO - 历史交通流数据目录: ./ETC_data_example/flow
+2025-10-20 09:38:37,015 - validator - INFO - 预测交通流数据目录: ./ETC_data_example/prediction
+2025-10-20 09:38:37,015 - validator - INFO - 输出目录: ./advanced_validation_results
+2025-10-20 09:38:37,015 - validator - INFO - 参数目录: ./parameter_results
+2025-10-20 09:38:37,015 - validator - INFO - 时间窗口: 5分钟
+2025-10-20 09:38:37,015 - validator - INFO - 匝道位置影响权重: 0.5
+2025-10-20 09:38:37,015 - validator - INFO - 匝道流量衰减因子: 0.7
+2025-10-20 09:38:37,015 - validator - INFO - 强制重新计算参数: False
+2025-10-20 09:38:37,015 - validator - INFO - ==========================================
+2025-10-20 09:38:37,015 - validator - INFO - 加载路段数据: ./ETC_data_example/roadETC.csv
+2025-10-20 09:38:37,015 - validator - INFO - 加载了 4 条路段记录
+2025-10-20 09:38:37,015 - validator - INFO - 加载ETC数据: ./ETC_data_example/raw_data_all.csv
+2025-10-20 09:38:46,226 - validator - INFO - 处理后共 1465137 条ETC记录
+2025-10-20 09:38:46,226 - validator - INFO - 加载历史交通流数据: ./ETC_data_example/flow
+2025-10-20 09:38:46,279 - validator - INFO - 加载了 5 个门架的历史交通流数据
+2025-10-20 09:38:46,279 - validator - INFO - 加载预测交通流数据: ./ETC_data_example/prediction
+2025-10-20 09:38:46,571 - validator - INFO - 加载了 5 个门架的预测交通流数据
+2025-10-20 09:38:46,571 - validator - INFO - 从已有文件加载行驶时间...
+2025-10-20 09:38:46,571 - validator - INFO - 从CSV加载车辆行驶时间: ./parameter_results\travel_times.csv
+2025-10-20 09:38:46,571 - validator - INFO - 成功加载 64 条行驶时间记录
+2025-10-20 09:38:46,571 - validator - INFO - 从已有文件加载分流系数...
+2025-10-20 09:38:46,571 - validator - INFO - 从CSV加载匝道分流系数: ./parameter_results\diversion_coefficients.csv
+2025-10-20 09:38:46,634 - validator - INFO - 成功加载 241920 条分流系数记录
+2025-10-20 09:38:51,415 - validator - INFO - 计算交通状态...
+2025-10-20 09:38:53,586 - validator - INFO - 匝道位置分布情况:
+2025-10-20 09:38:53,586 - validator - INFO - 出口匝道位置: 最小=0.80, 最大=0.80, 平均=0.80
+2025-10-20 09:38:53,586 - validator - INFO - 复合入口匝道位置: 最小=0.20, 最大=0.20, 平均=0.20
+2025-10-20 09:38:53,586 - validator - INFO - 复合出口匝道位置: 最小=0.80, 最大=0.80, 平均=0.80
+2025-10-20 09:38:53,586 - validator - INFO - 开始运行盲段验证...
+2025-10-20 09:38:53,586 - validator - INFO - 开始盲段验证...
+2025-10-20 09:38:53,586 - validator - INFO - 找到 4 对相邻门架
+2025-10-20 09:38:53,586 - validator - INFO - 
+验证需求时间: 5分钟
+2025-10-20 09:38:54,555 - validator - INFO - 
+验证需求时间: 15分钟
+2025-10-20 09:38:55,842 - validator - INFO - 
+验证需求时间: 30分钟
+2025-10-20 09:38:57,177 - validator - INFO - 
+验证需求时间: 60分钟
+2025-10-20 09:38:58,492 - validator - INFO - 验证结果已保存至: ./advanced_validation_results\validation_results.csv
+2025-10-20 09:38:58,493 - validator - INFO - 
+整体验证指标:
+2025-10-20 09:38:58,493 - validator - INFO - MAE: 1.6935
+2025-10-20 09:38:58,493 - validator - INFO - RMSE: 4.6473
+2025-10-20 09:38:58,493 - validator - INFO - MAPE: 43.2513
+2025-10-20 09:38:58,493 - validator - INFO - R2: 0.8593
+2025-10-20 09:38:58,493 - validator - INFO - 
+按验证方案比较指标:
+2025-10-20 09:38:58,493 - validator - INFO - 
+position_aware 方案指标:
+2025-10-20 09:38:58,493 - validator - INFO - MAE: 1.6935
+2025-10-20 09:38:58,493 - validator - INFO - RMSE: 4.6473
+2025-10-20 09:38:58,493 - validator - INFO - MAPE: 43.2513
+2025-10-20 09:38:58,493 - validator - INFO - R2: 0.8593
+2025-10-20 09:38:58,493 - validator - INFO - 
+按场景类型比较指标:
+2025-10-20 09:38:58,493 - validator - INFO - 
+场景类型 3 指标:
+2025-10-20 09:38:58,493 - validator - INFO - MAE: 2.1084
+2025-10-20 09:38:58,493 - validator - INFO - RMSE: 6.0775
+2025-10-20 09:38:58,493 - validator - INFO - MAPE: 50.9943
+2025-10-20 09:38:58,493 - validator - INFO - R2: 0.7590
+2025-10-20 09:38:58,493 - validator - INFO - 
+场景类型 4 指标:
+2025-10-20 09:38:58,493 - validator - INFO - MAE: 1.5553
+2025-10-20 09:38:58,493 - validator - INFO - RMSE: 4.0601
+2025-10-20 09:38:58,493 - validator - INFO - MAPE: 40.6683
+2025-10-20 09:38:58,493 - validator - INFO - R2: 0.8926
+2025-10-20 09:38:58,525 - validator - INFO - 盲段验证完成! 耗时: 4.94 秒
+2025-10-20 09:38:58,525 - validator - INFO - 验证完成。请查看结果目录获取详细报告。
